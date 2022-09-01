@@ -1,0 +1,15 @@
+Eliel Vipata CS354 Lab1 Answers
+1.	I expected the process to execute in the order in which they were created without 
+	getting rescheduled. Print A 1000 times then B then C.
+2.	The processes would get rescheduled as they ran, proc1 would print A for a while then
+	proc2 B and proc3 C and they kept interchanging and running until they all printed a 1000 times.
+
+3.	Yes, the output changed. Proc1 ran to completion(printed A 1000 times) before 
+	proc2 and proc3 could even start printing their values
+
+4.	proc3 ran and printed C 1000 times before proc1 and proc2 could start printing their values.
+
+5. 	output using printf is different from using kprintf. The processes seemed to run an equal amount of time
+	when they were rescheduled for kprintf and printf seems like they all ran for different amounts of time 
+	when they were rescheduled in.
+ 
